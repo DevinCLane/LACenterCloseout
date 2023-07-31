@@ -4,7 +4,7 @@ import Logo from '~/components/Logo.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 
-import { getHomePermalink, getAsset } from '~/utils/permalinks';
+import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
   text?: string;
@@ -35,7 +35,6 @@ const {
   actions = [],
   isSticky = false,
   showToggleTheme = false,
-  showRssFeed = false,
   position = 'center',
 } = Astro.props;
 ---
