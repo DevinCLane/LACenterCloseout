@@ -28,7 +28,7 @@ const defaultImage = SITE.defaultImage
 
 const {
   title = SITE.name,
-  description = '',
+  description = 'LA Center Closeout',
   image: _image = defaultImage,
 
   canonical = getCanonical(String(Astro.url.pathname)),
@@ -92,7 +92,7 @@ const image =
 
 {SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />}
 
-<link rel="shortcut icon" href={getAsset('/favicon.ico')} />
+<!-- <link rel="shortcut icon" href={getAsset('/favicon.ico')} /> -->
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />
 <link rel="mask-icon" href={getAsset('/favicon.svg')} color="#8D46E7" />
 <link rel="sitemap" href={getAsset('/sitemap-index.xml')} />
