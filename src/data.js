@@ -57,7 +57,7 @@ export const headerData = {
   //     href: getBlogPermalink(),
   //   },
   // ],
-  actions: [{ type: 'button', text: 'Get in touch', href: '#' }],
+  actions: [{ type: 'button', text: 'Get in touch', href: 'tel:+01-323-586-0800' }],
 };
 
 export const footerData = {
