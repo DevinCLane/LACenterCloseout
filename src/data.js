@@ -58,11 +58,17 @@ export const headerData = {
   //   },
   // ],
   actions: [
-    { type: 'button', text: 'Call us', href: 'tel:+01-323-586-0800' },
+    {
+      type: 'button',
+      text: 'Call us',
+      href: 'tel:+01-323-586-0800',
+      icon: 'tabler:phone-call',
+    },
     {
       type: 'button',
       text: 'Email us',
       href: 'mailto:lacentercloseout@gmail.com?subject=Website Inquiry',
+      icon: 'tabler:mail',
     },
   ],
 };
