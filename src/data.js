@@ -57,7 +57,14 @@ export const headerData = {
   //     href: getBlogPermalink(),
   //   },
   // ],
-  actions: [{ type: 'button', text: 'Get in touch', href: 'tel:+01-323-586-0800' }],
+  actions: [
+    { type: 'button', text: 'Call us', href: 'tel:+01-323-586-0800' },
+    {
+      type: 'button',
+      text: 'Email us',
+      href: 'mailto:lacentercloseout@gmail.com?subject=Website Inquiry',
+    },
+  ],
 };
 
 export const footerData = {
