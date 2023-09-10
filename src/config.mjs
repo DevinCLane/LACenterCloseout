@@ -9,7 +9,7 @@ const CONFIG = {
 
   title: 'LA Center Closeout',
   description:
-    'Wholesaler of name brand liquidation close out goods',
+    'LA Center Closeout is the premier liquidation center for name-brand wholesale goods in Los Angeles, California.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -25,10 +25,10 @@ const CONFIG = {
   }),
 
   googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+  googleSiteVerificationId: '',
 
   blog: {
-    disabled: false,
+    disabled: true,
     postsPerPage: 4,
 
     post: {
