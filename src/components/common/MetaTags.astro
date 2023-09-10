@@ -9,7 +9,6 @@ import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
 import CustomStyles from '~/components/CustomStyles.astro';
-import SplitbeeAnalytics from './SplitbeeAnalytics.astro';
 
 export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
@@ -28,7 +27,7 @@ const defaultImage = SITE.defaultImage
 
 const {
   title = SITE.name,
-  description = 'LA Center Closeout',
+  description = 'LA Center Closeout is the premier liquidation center for name-brand wholesale goods in Los Angeles, California.',
   image: _image = defaultImage,
 
   canonical = getCanonical(String(Astro.url.pathname)),
@@ -73,7 +72,7 @@ const image =
           },
         ]
       : undefined,
-    // site_name: 'SiteName',
+    site_name: 'LA Center Closeout',
   }}
   twitter={{
     // handle: '@handle',
@@ -90,9 +89,9 @@ const image =
 <!-- Google Analytics -->
 {SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
 
-{SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />}
+<!-- {SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />} -->
 
-<!-- <link rel="shortcut icon" href={getAsset('/favicon.ico')} /> -->
+<link rel="shortcut icon" href={getAsset('/favicon.ico')} />
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />
 <link rel="mask-icon" href={getAsset('/favicon.svg')} color="#8D46E7" />
 <link rel="sitemap" href={getAsset('/sitemap-index.xml')} />
