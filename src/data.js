@@ -133,6 +133,6 @@ export const footerData = {
   // ],
   footNote: `
     Website by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://devinlane.com/" target="_blank"> Devin Lane</a> · 
-    Design by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/" target="_blank"> onWidget</a> · All rights reserved.
+    Design adapted from <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/" target="_blank"> onWidget</a> · All rights reserved.
   `,
 };
