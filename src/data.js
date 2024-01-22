@@ -1,4 +1,4 @@
-import { getPermalink} from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   // links: [
@@ -67,7 +67,7 @@ export const headerData = {
     {
       type: 'button',
       text: 'Email us',
-      href: 'mailto:lacentercloseout@gmail.com?subject=Website Inquiry',
+      href: 'mailto:onlinesales@lacentercloseout.com?subject=Website Inquiry',
       icon: 'tabler:mail',
     },
   ],
