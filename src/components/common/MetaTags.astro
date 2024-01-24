@@ -1,7 +1,6 @@
 ---
 import { AstroSeo } from '@astrolib/seo';
 import { GoogleAnalytics } from '@astrolib/analytics';
-import { getImage } from '@astrojs/image';
 
 import { SITE } from '~/config.mjs';
 import { MetaSEO } from '~/types';
@@ -13,16 +12,7 @@ export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
 }
 
-const defaultImage = SITE.defaultImage
-  ? (
-      await getImage({
-        src: SITE.defaultImage,
-        alt: 'Default image',
-        width: 1200,
-        height: 628,
-      })
-    ).src
-  : '';
+const defaultImage = SITE.defaultImage || '';
 
 const {
   title = SITE.name,

@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon';
-import { Picture } from '@astrojs/image/components';
 
 interface Item {
   title: string;
@@ -58,7 +57,7 @@ const {
           (typeof image === 'string' ? (
             <Fragment set:html={image} />
           ) : (
-            <Picture
+            <img
               class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
               widths={[400, 768]}
               sizes="(max-width: 768px) 100vw, 432px"

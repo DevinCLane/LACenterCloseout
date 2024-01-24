@@ -1,4 +1,4 @@
-import defaultImage from './assets/images/LACC-exterior.jpg';
+import defaultImage from './images/LACC-exterior.jpg';
 
 const CONFIG = {
   name: 'LA Center Closeout',
