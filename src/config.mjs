@@ -1,5 +1,3 @@
-import defaultImage from './images/LACC-exterior.jpg';
-
 const CONFIG = {
   name: 'LA Center Closeout',
 
@@ -10,7 +8,7 @@ const CONFIG = {
   title: 'LA Center Closeout',
   description:
     'LA Center Closeout is the premier liquidation center for name-brand wholesale goods in Los Angeles, California.',
-  defaultImage: defaultImage,
+  defaultImage: '/images/LACC-exterior.jpg',
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
