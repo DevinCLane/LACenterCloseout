@@ -23,7 +23,7 @@ const CONFIG = {
   }),
 
   googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  googleSiteVerificationId: '',
+  googleSiteVerificationId: 'WxMjrPbnph0bVNWtBbCsIJkW-igYYUMZ-XgrOaIUWGc',
 
   blog: {
     disabled: true,
