@@ -1,7 +1,7 @@
 const CONFIG = {
   name: 'LA Center Closeout',
 
-  origin: 'https://lacentercloseout.netlify.app/',
+  origin: 'https://lacentercloseout.com/',
   basePathname: '/',
   trailingSlash: false,
 
