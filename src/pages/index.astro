@@ -5,6 +5,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -200,70 +201,6 @@ const meta = {
     }}
   />
 
-  <!-- Features2 Widget ************** -->
-  <!--  
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
-    items={[
-      {
-        title: 'Headers',
-        description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
-        icon: 'flat-color-icons:todo-list',
-      },
-      {
-        title: 'Content',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'icon-park:page-template',
-      },
-    ]}
-  />
--->
   <!-- HighlightedPosts Widget ******* -->
 
   <!-- <LatestPosts
@@ -329,7 +266,32 @@ const meta = {
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
+  <!-- Features2 Widget using as contact ************** -->
+
+  <Features2
+    title="Contact and Visit Us"
+    subtitle="Call us or visit our warehouse in downtown Los Angeles, California."
+    highlight="Get in touch"
+    items={[
+      {
+        title: 'Our Warehouse',
+        description:
+          '<a href="https://maps.app.goo.gl/3iEy1yKEG1kfLwb7A" class="hover:underline" target="_blank">5502 Alcoa Ave, Vernon, CA 90058</a>',
+        icon: 'flat-color-icons:shop',
+      },
+      {
+        title: 'Our Phone',
+        description: '<a href="tel:323-586-0800" class="hover:underline">323-586-0800</a>',
+        icon: 'flat-color-icons:phone',
+      },
+      {
+        title: 'Email',
+        description:
+          '<a href="mailto:onlinesales@lacentercloseout.com" class="hover:underline">onlinesales@lacentercloseout.com</a>',
+        icon: 'flat-color-icons:feedback',
+      },
+    ]}
+  />
 
   <CallToAction
     callToAction={{
