@@ -1,4 +1,10 @@
-# 🚀 AstroWind
+# LA Center Closeout
+
+A client site that I built for a liquidation wholesaler in Los Angeles, California.
+
+Made use of the AstroWind theme, details below.
+
+---
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
