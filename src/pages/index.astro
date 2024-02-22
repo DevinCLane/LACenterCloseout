@@ -26,7 +26,6 @@ const meta = {
   <Hero
     callToAction={{ text: 'Contact us', href: 'tel:+01-323-586-0800', icon: 'tabler:phone-call' }}
     callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: './images/LACC-exterior.jpg', alt: 'LACC Exterior' }}
   >
     <Fragment slot="title">LA Center Closeout</Fragment>
 
@@ -35,6 +34,20 @@ const meta = {
         <span class="font-semibold">LA Center Closeout</span> is the premier liquidation center for name-brand wholesale
         goods in Los Angeles, California.
       </span>
+    </Fragment>
+    <Fragment slot="image">
+      <div class="relative h-0 pb-[56.25%]">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/0cmkXVovCUY?si=-xvrISGfQ_vleiEK"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full"
+        >
+        </iframe>
+      </div>
     </Fragment>
   </Hero>
 
