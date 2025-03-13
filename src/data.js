@@ -61,7 +61,7 @@ export const headerData = {
     {
       type: 'button',
       text: 'Call us',
-      href: 'tel:323-580-0800',
+      href: 'tel:323-413-7428',
       icon: 'tabler:phone-call',
     },
     {
