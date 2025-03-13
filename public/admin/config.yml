@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: DevinCLane/LACenterCloseout
+  auth_scope: repo
+  base_url: https://api.netlify.com
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "src/content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Hero Image", name: "heroImage", widget: "image" }
+          - { label: "Hero Text", name: "heroText", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      
+  - name: "products"
+    label: "Products"
+    folder: "src/content/products"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Price", name: "price", widget: "number" }
+      - { label: "Description", name: "description", widget: "markdown" }
